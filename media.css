@@ -1,0 +1,228 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ /* ========hero-starrt========== */
+ .container{
+    width: 100% !important;
+   
+}
+.hero{
+    padding: 110px 0 110px 0 !important;
+   
+    /* height:100vh !important; */
+}
+.devider{
+   margin: 0 20px !important; 
+   
+}
+.ceo-pera p {
+    margin: 30px 20px !important;
+    font-size: 30px !important; 
+    line-height: 45px !important;
+
+}
+
+ .wave {
+              
+  height: 40px !important;            
+             
+}
+ /* ========hero-end========== */
+ /* =============marketing-start========= */
+ .ceo-pera2 p {
+    margin: 30px 20px !important;
+    font-size: 30px !important; 
+    line-height: 45px !important;
+
+}
+ .Blog-1 {
+    padding: 20px 10px;
+    margin: 20px 10px 30px 10px !important;
+    width:95% !important;
+}
+/* ===========watch-vidio======= */
+.video-card iframe {
+    
+   
+    left: 20px !important;
+    width: 90% !important;
+   
+}
+.watch-video {
+    height: 650px !important;
+}
+/* ======.faq-section==== */
+.faq-section {
+    padding: 100px 0 !important;
+    
+}
+/* =======form-start======== */
+.form-wrapper{
+        max-width: 450px !important;
+        padding: 20px !important;     
+    }
+    .container3{
+        width:90% !important ;
+        margin: 0 auto;
+    }
+/* ===map-start===== */
+    .container4 {
+    width: 94% !important;
+    margin: 0 auto !important;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* ========hero-starrt========== */ 
+.container{
+    width: 100% !important;
+
+ }  
+.hero{
+   
+    padding: 100px 0 100px 0 !important;
+    /* height: 100vh !important; */
+    }
+    .devider{
+   margin: 0 50px !important; 
+   
+}
+.ceo-pera p {
+    margin: 30px 20px !important;
+    font-size: 40px !important; 
+    line-height: 65px !important;
+    
+/* ========hero-end========== */
+}
+/* =========marketing-start============= */
+.ceo-pera2 p {
+    font-size: 40px!important; 
+    line-height: 77px!important;
+
+}
+.Blog-1 {
+    margin: 20px 20px 30px 10px !important;
+    width: 43.33% !important;
+}
+
+/* ===========marketing-end======= */
+/* ===========watch-vidio======= */
+.video-card iframe {
+    
+   
+    left: 30px !important;
+    width: 90% !important;
+   
+}
+.watch-video {
+    height: 650px !important;
+}
+/* ======.faq-section==== */
+.faq-section {
+    padding: 100px 0 !important;
+    
+}
+/* =======form-start======== */
+.form-wrapper{
+        max-width: 500px !important;
+        padding: 20px !important;     
+    }
+    /* ===map-start===== */
+    .container3 {
+    width: 94% !important;
+    margin: 0 auto !important;
+}
+}
+
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /* ========hero-starrt========== */
+ .container{
+    width: 100% !important;
+
+ }
+.hero{
+    padding: 100px 0 100px 0 !important;
+    /* height:100vh !important; */
+}
+.devider{
+   margin: 0 20px !important; 
+   
+}
+.ceo-pera p {
+    margin: 30px 20px !important;
+    font-size: 40px !important; 
+    line-height: 65px !important;
+
+}
+/* ========hero-end========== */
+
+/* ======marketing-start========== */
+.ceo-pera2 p {
+    font-size: 48px !important;
+ }
+ .Blog-1 {
+    width: 30.33% !important;
+    margin: 20px 10px 30px 10px!important;
+}
+/* =======form-start======== */
+.form-wrapper{
+        max-width: 700px !important;
+        padding: 20px !important;     
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ /* ========hero-starrt========== */
+ .container{
+    width: 98% !important;
+
+ }
+ .hero{
+    padding: 120px 0 120px 0 !important;
+    /* height:100vh !important; */
+}
+
+.ceo-pera p {
+    margin: 30px 20px !important;
+    font-size: 40px !important; 
+}
+
+ /* ========hero-end========== */
+ /* =====marketing-start===== */
+ .Blog-1 {
+    
+    margin: 20px 10px 30px 10px!important;
+ }
+ /* ========watch-vide0======= */
+ .watch-video {
+    height: 800px !important;
+}
+/* ======.faq-section==== */
+.faq-section {
+    padding: 100px 0 !important;
+    
+}
+}
+
+
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px) { 
+ /* ========hero-starrt========== */
+.devider{
+   margin: 0 200px !important; 
+   
+}
+/* ========hero-end========== */
+ }
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+
+    
+ }
