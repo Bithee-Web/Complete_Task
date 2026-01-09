@@ -14,8 +14,8 @@ html {
 }
 
 html, body {
-        width: 100%;
         overflow-x: hidden;
+       overflow-y: auto;
 }
 
 body{
@@ -42,7 +42,7 @@ body{
     padding: 5px 20px;
     border-radius: 50px;
     background-color:var(--bg-btn-colo);
-    border:solid , 0.5px #4c5087;
+    border: 0.5px solid #4c5087;
     color:#ffffff;
     display: inline-block;
     font-size: 14px;
@@ -167,7 +167,7 @@ body{
     padding: 5px 20px;
     border-radius: 50px;
     background-color:rgba(147, 51, 234, 0.10);;
-    border:solid , 0.5px #d1fae5;
+    border: 0.5px solid #d1fae5;
     color:var(--red);
     display: inline-block;
     font-size: 14px;
@@ -185,16 +185,21 @@ body{
 .ceo2{
     color:var(--green);
 }
-
+.blog-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 .Blog-1{
     margin: 20px 10px 30px 10px;   
     width:30.33%;
-    box-sizing: border-box;
     border-top: solid 5px #000000;
     border-radius: 10px;
-    float: left;
     box-shadow: 0px 0px 20px 0px rgba(142, 142, 142, 0.20);
     text-align: center;
+    box-sizing: border-box;
+ 
     transition: transform 0.35s ease-in-out;
    
 
@@ -292,18 +297,17 @@ body{
     line-height: 55px;
 }
 .video-card{
-  position: relative;
-  padding-top: 56.25%;
+    position: relative;
+    padding-top: 56.25%;
+}
+.video-card iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
 
-.video-card iframe{
-  position:absolute;
-  top:0;
-  left:80px;
-  width:80%;
-  margin: 0 auto;
-  height:100%;
-}
 .btn3{
     margin-top: 30px;
 
