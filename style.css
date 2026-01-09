@@ -33,7 +33,7 @@ body{
     height:550px;
 }
 .container , .container2{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 .pi-button{
