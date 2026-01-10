@@ -3,8 +3,10 @@
  /* ========hero-starrt========== */
 .hero{
     padding: 110px 0 110px 0 !important;
-   
-    /* height:100vh !important; */
+}
+.pi-button{
+    width: 100% !important;
+    
 }
 .devider{
    margin: 0 20px !important; 
@@ -25,13 +27,18 @@
  /* ========hero-end========== */
  /* =============marketing-start========= */
  .ceo-pera2 p {
-    margin: 30px 20px !important;
+    margin: 0 !important;
     font-size: 30px !important; 
     line-height: 45px !important;
 
 }
+.blog-wrapper
+ {
+    width: 100% !important;
+ }
  .Blog-1 {
-        width: 90.2% !important; 
+        width: 98% !important;
+        margin: 0 10px;
     }
 .text-1 {
     font-size: 16px !important;
@@ -47,10 +54,30 @@
 .watch-video {
     height: 650px !important;
 }
+
+.youtube-video
+ {
+   width: 100% !important;
+   text-align: center;
+ }
+ .ceo-pera4 p {
+    font-size: 25px !important;
+    line-height: 40px !important;
+}
+
 /* ======.faq-section==== */
 .faq-section {
     padding: 100px 0 !important;
     
+}
+.faq {
+    width: 100% !important;
+   
+}
+.headline p {
+    
+    font-size: 16px !important;
+    line-height: 30px !important;
 }
 /* =======form-start======== */
 .form-wrapper{
@@ -59,7 +86,9 @@
     }
     
 /* ===map-start===== */
-    
+    .map-wdth {
+    width: 95% !important;
+}
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -68,11 +97,14 @@
 .hero{
    
     padding: 100px 0 100px 0 !important;
-    /* height: 100vh !important; */
     }
     .devider{
    margin: 0 50px !important; 
    
+}
+.pi-button{
+    width: 100% !important;
+    
 }
 .ceo-pera p {
     margin: 30px 20px !important;
@@ -87,8 +119,13 @@
     line-height: 77px!important;
 
 }
-.Blog-1 {
-        width: 90.2% !important; 
+.blog-wrapper
+ {
+    width: 100% !important;
+ }
+ .Blog-1 {
+        width: 98% !important;
+        margin: 0 10px;
     }
 .text-1 {
     font-size: 16px !important;
@@ -106,10 +143,28 @@
 .watch-video {
     height: 650px !important;
 }
+.youtube-video
+ {
+   width: 100% !important;
+   text-align: center;
+ }
+ .ceo-pera4 p {
+    font-size: 25px !important;
+    line-height: 40px !important;
+}
 /* ======.faq-section==== */
 .faq-section {
     padding: 100px 0 !important;
     
+}
+.faq {
+    width: 100% !important;
+   
+}
+.headline p {
+    
+    font-size: 16px !important;
+    line-height: 30px !important;
 }
 /* =======form-start======== */
 .form-wrapper{
@@ -127,11 +182,14 @@
  /* ========hero-starrt========== */
 .hero{
     padding: 100px 0 100px 0 !important;
-    /* height:100vh !important; */
 }
 .devider{
    margin: 0 20px !important; 
    
+}
+.pi-button{
+    width: 96% !important;
+    
 }
 .ceo-pera p {
     margin: 30px 20px !important;
@@ -156,6 +214,10 @@
         max-width: 700px !important;
         padding: 20px !important;     
     }
+    /* ===map-start===== */
+    .map-wdth {
+    width: 95% !important;
+}
 }
 
 
@@ -164,7 +226,7 @@
  /* ========hero-starrt========== */
  .hero{
     padding: 120px 0 120px 0 !important;
-    /* height:100vh !important; */
+   
 }
 
 .ceo-pera p {
