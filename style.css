@@ -14,7 +14,7 @@ html {
 }
 
 html, body {
-        width: 100%;
+   
        overflow-x: hidden;
        overflow-y: auto;
 }
@@ -32,14 +32,10 @@ body{
     background:linear-gradient(to right,#1c1947,#020617) ;
     height:550px;
 }
-.container , .container2{
-    width: 100%;
-    margin: 0 auto;
-}
 .pi-button{
-    overflow: hidden;
-    display: flex;
-    justify-content: center; 
+    width: 80%;
+    margin: 0 auto;
+   text-align: center;
 }
 .Pill_button{
     padding: 5px 20px;
@@ -189,13 +185,14 @@ body{
     color:var(--green);
 }
 .blog-wrapper{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
-.Blog-1{
-    margin: 20px 10px 30px 10px;   
+.Blog-1{  
     width:30.33%;
     border-top: solid 5px #000000;
     border-radius: 10px;
@@ -286,6 +283,11 @@ body{
 }
 /* =========marketing-end====== */
 /* ==========watch-video-start========== */
+
+.youtube-video{
+    width: 80%;
+    margin:0 auto;
+}
 .watch-video{
     padding: 50px 0 0 0;
     position: relative;
@@ -317,6 +319,10 @@ body{
 }
 /* =====watch-video-end========== */
 /* ==========faq-section-start===== */
+.faq{
+    width: 80%;
+    margin: 0 auto;
+}
 .faq-section {
     padding: 100px;
      font-family: Hind Siliguri;
@@ -498,6 +504,10 @@ textarea{
 }
 /* ======form-end============ */
 /* ====map-start====== */
+.map-wdth{
+    width: 80%;
+    margin: 0 auto;
+}
 .ceo-pera5 p{
     text-align: center;
     color: #353535;

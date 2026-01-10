@@ -1,10 +1,6 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
  /* ========hero-starrt========== */
- .container{
-    width: 100% !important;
-   
-}
 .hero{
     padding: 110px 0 110px 0 !important;
    
@@ -35,9 +31,10 @@
 
 }
  .Blog-1 {
-    padding: 20px 10px;
-    margin: 20px 10px 30px 10px !important;
-    width:95% !important;
+        width: 90.2% !important; 
+    }
+.text-1 {
+    font-size: 16px !important;
 }
 /* ===========watch-vidio======= */
 .video-card iframe {
@@ -60,24 +57,14 @@
         max-width: 450px !important;
         padding: 20px !important;     
     }
-    .container3{
-        width:90% !important ;
-        margin: 0 auto;
-    }
+    
 /* ===map-start===== */
-    .container4 {
-    width: 94% !important;
-    margin: 0 auto !important;
-}
+    
  }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 /* ========hero-starrt========== */ 
-.container{
-    width: 100% !important;
-
- }  
 .hero{
    
     padding: 100px 0 100px 0 !important;
@@ -101,8 +88,10 @@
 
 }
 .Blog-1 {
-    margin: 20px 20px 30px 10px !important;
-    width: 43.33% !important;
+        width: 90.2% !important; 
+    }
+.text-1 {
+    font-size: 16px !important;
 }
 
 /* ===========marketing-end======= */
@@ -128,10 +117,6 @@
         padding: 20px !important;     
     }
     /* ===map-start===== */
-    .container3 {
-    width: 94% !important;
-    margin: 0 auto !important;
-}
 }
 
 
@@ -140,10 +125,6 @@
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
  /* ========hero-starrt========== */
- .container{
-    width: 100% !important;
-
- }
 .hero{
     padding: 100px 0 100px 0 !important;
     /* height:100vh !important; */
@@ -164,9 +145,11 @@
 .ceo-pera2 p {
     font-size: 48px !important;
  }
- .Blog-1 {
-    width: 30.33% !important;
-    margin: 20px 10px 30px 10px!important;
+.Blog-1 {
+        width: 45.1% !important; 
+    }
+.text-1 {
+    font-size: 16px !important;
 }
 /* =======form-start======== */
 .form-wrapper{
@@ -179,10 +162,6 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
  /* ========hero-starrt========== */
- .container{
-    width: 98% !important;
-
- }
  .hero{
     padding: 120px 0 120px 0 !important;
     /* height:100vh !important; */
@@ -195,10 +174,9 @@
 
  /* ========hero-end========== */
  /* =====marketing-start===== */
- .Blog-1 {
-    
-    margin: 20px 10px 30px 10px!important;
- }
+ .text-1 {
+    font-size: 16px !important;
+}
  /* ========watch-vide0======= */
  .watch-video {
     height: 800px !important;
